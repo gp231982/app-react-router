@@ -11,7 +11,7 @@ class App extends Component {
     console.log("render");
 
     return (
-      <Router basename={process.env.PUBLIC.URL}>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
           <header>{<Header />}</header>
           <main>

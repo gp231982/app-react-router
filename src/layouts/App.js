@@ -8,12 +8,12 @@ import Page from "./Page";
 
 class App extends Component {
   render() {
-    console.log('render');
+    console.log("render");
 
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC.URL}>
         <div className="app">
-          <header>{<Header/>}</header>
+          <header>{<Header />}</header>
           <main>
             <aside>{<Navigation />}</aside>
             <section className="page">{<Page />}</section>

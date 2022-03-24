@@ -1,0 +1,12 @@
+.login input {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.login button{
+    padding: 5px 10px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}

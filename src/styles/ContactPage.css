@@ -1,0 +1,30 @@
+
+form h3 {
+  margin-bottom: 5px;
+}
+
+form.contact textarea {
+  padding-top: 2px;
+  width: 80%;
+  height: 30vh;
+  font-size: 18px;
+  line-height: 130%;
+  margin-bottom: 5px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  margin: 0 20% 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 120%;
+  display: block;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  color: yellow;
+  background-color: black;
+}
+
+
